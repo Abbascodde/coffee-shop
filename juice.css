@@ -5,13 +5,12 @@
 }
 *::after,
 *::before {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 body {
   color: white;
@@ -20,9 +19,10 @@ body {
 
 nav {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
- gap: -30px;
+  gap: -30px;
 }
 
 ul {
@@ -32,20 +32,33 @@ ul {
   justify-content: space-between;
   padding: 12px;
   list-style: none;
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   gap: 50px;
-  font-weight: 700;
+  font-weight: 400;
   padding-right: 100px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
+li:hover{
+  background: #f5e3be;
+  transition: .5s;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.home:hover{
+   background-color: #714238;
+   transition: .5s;
+   border-radius: 3px;
+   color: white;
+   padding: 10px;
+}
+
 .logo {
   padding-left: 100px;
   margin-top: 40px;
-   
 }
-
-
 
 .list {
   display: flex;
@@ -60,7 +73,6 @@ ul {
   border-radius: 5px 0px 0px 5px;
 }
 
-
 main {
   margin-top: 100px;
 }
@@ -72,6 +84,10 @@ main {
   color: #bdb5b2;
 }
 
+.main div {
+  align-items: center;
+  
+}
 .coffee-mood {
   font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
@@ -97,13 +113,11 @@ main {
   justify-content: space-around;
 }
 
- 
-
 .first-section img {
   margin-top: 35px;
-  height: 265px;
+  height: 400px;
   left: 300px;
-  border-radius: 60px;
+  border-radius: 40px;
   padding: 20px;
 }
 
@@ -115,10 +129,9 @@ main {
 }
 
 .discover h4 {
- font-weight: 500;
- line-height: 3;
- font-family: Arial, Helvetica, sans-serif;
-
+  font-weight: 500;
+  line-height: 3;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .discover p {
@@ -130,7 +143,7 @@ main {
   text-align: center;
   margin-top: 20px;
   color: #1a788d;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
 }
 
@@ -148,7 +161,6 @@ main {
 
 .feedback {
   background-color: #5a4f46;
-
 }
 .review {
   display: flex;
@@ -164,13 +176,13 @@ main {
   font-weight: 100;
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
+}
 
 .sayings {
   text-align: center;
 }
 
-.first-div  {
+.first-div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,7 +200,6 @@ main {
   font-weight: 500;
 }
 
-
 /* Footer */
 
 .container {
@@ -200,7 +211,6 @@ main {
 .contact {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 .container-two h1 {
@@ -208,12 +218,10 @@ main {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .all {
   color: wheat;
   margin-bottom: 15px;
 }
-  
 
 a {
   color: white;
@@ -259,7 +267,7 @@ input {
 
 .container-three {
   display: flex;
-  align-items:normal;
+  align-items: normal;
   gap: 20px;
   font-size: 30px;
 }
@@ -268,18 +276,17 @@ input {
   color: #1a788d;
 }
 
-
 .copyright {
   background-color: #f5e3be;
   padding: 10px;
   color: #301f15;
   text-align: center;
   font-weight: 500;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 @media screen and (min-width: 600px) {
-  .link-columns>div>section {
-      min-width: auto;
+  .link-columns > div > section {
+    min-width: auto;
   }
 }
