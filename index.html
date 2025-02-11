@@ -16,7 +16,7 @@
   
   <!-- header -->
   <nav>
-    <a href="#"><h1 class="logo"><img src="/images/logo-coffee-removebg-preview.png" width="140px" height="120px" alt=""></h1></a>
+    <a href="#" class="logo"><h1><img src="/images/logo-coffee-removebg-preview.png" width="140px" height="120px" alt="Coffee Borcelle Logo"></h1></a>
 
          <div class="list">  
             <h3><a class="home" href="#home">Home</a></h3>
@@ -29,31 +29,48 @@
          </div>
   </nav>
 
-  <!-- main -->
+  <!-- Mobile Navigation Toggle -->
+  <div class="mobile-nav-toggle">
+    <div class="hamburger-menu" id="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Us</a></li>
+        <li><a href="#features" class="mobile-nav-link">Features</a></li>
+        <li><a href="#purchase" class="mobile-nav-link">Purchase</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
 
-  <main>
-    <div class="main"><a href="/home"></a>
+  <!-- main -->
+  <main id="home">
+    <div class="main">
       <div>
-        <h1 class="coffee-mood">Coffee <span><img src="./images/logo-coffee-removebg-preview.png" width="40px"alt=""></span> Makes Mood</h1>
-        <p class="every-sip">indulge in every sip:experience the richness of coffee!</p>
+        <h1 class="coffee-mood">Coffee <span><img src="./images/logo-coffee-removebg-preview.png" width="40px" alt="Coffee Logo"></span> Makes Mood</h1>
+        <p class="every-sip">Indulge in every sip: experience the richness of coffee!</p>
       </div>
       <div class="coffee">
-        <img src="/images/about-coffee-removebg-preview.png" width="370px" height="100%" alt="">
+        <img src="/images/about-coffee-removebg-preview.png" width="370px" height="100%" alt="Coffee Image">
       </div>
     </div>
   </main>
 
   <!-- section-A -->
-  <section class="section-one">
+  <section class="section-one" id="about">
     <div class="first-section">
     
-        <img src="/images/coffee-sweet.jpeg" width="400px" alt="">
+        <img src="/images/coffee-sweet.jpeg" width="400px" alt="Coffee Sweet">
         
       <div class="discover">
         <h1>Discover Coffee Borcelle</h1>
         <h4>Elevating Your coffee Experience</h4>
 
-        <p>At Coffee Borcelle, we're on a mission to redefine your coffee <br> moments.Our carefully created selection of premium beans,<br>sourced from the world's most renowned coffee regions. <br>
+        <p>At Coffee Borcelle, we're on a mission to redefine your coffee moments.Our carefully created selection of premium beans,<br>sourced from the world's most renowned coffee regions. <br>
           <br>
           <!-- <a href="#about"></a> -->
           with expert craftsmanship and a commitment to quality,<br>join us in savoring the art of coffee,one cup at a time.
@@ -66,12 +83,88 @@
     </div>
   </section>
 
+  <!-- Coffee Menu Section -->
+  <section class="coffee-menu" id="features">
+    <div class="menu-header">
+      <h1>Our Coffee Selection</h1>
+      <p>Explore our carefully curated coffee blends</p>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150" class="coffee-svg">
+          <path fill="#714238" d="M50 10c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 70c-16.569 0-30-13.431-30-30s13.431-30 30-30 30 13.431 30 30-13.431 30-30 30z"/>
+          <path fill="#b46f62" d="M50 20c-16.569 0-30 13.431-30 30s13.431 30 30 30 30-13.431 30-30-13.431-30-30-30zm0 50c-11.046 0-20-8.954-20-20s8.954-20 20-20 20 8.954 20 20-8.954 20-20 20z"/>
+          <path fill="#301f15" d="M50 30c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 30c-5.523 0-10-4.477-10-10s4.477-10 10-10 10 4.477 10 10-4.477 10-10 10z"/>
+          <path fill="#f5e3be" d="M50 40c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 15c-2.761 0-5-2.239-5-5s2.239-5 5-5 5 2.239 5 5-2.239 5-5 5z"/>
+          <path fill="#714238" d="M50 50c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5z"/>
+        </svg>
+        <h3>Classic Espresso</h3>
+        <p>Rich, bold, and intense. Perfect for a quick energy boost.</p>
+        <button>Order Now</button>
+      </div>
+      <div class="menu-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150" class="coffee-svg">
+          <path fill="#714238" d="M50 10c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 70c-16.569 0-30-13.431-30-30s13.431-30 30-30 30 13.431 30 30-13.431 30-30 30z"/>
+          <path fill="#b46f62" d="M50 20c-16.569 0-30 13.431-30 30s13.431 30 30 30 30-13.431 30-30-13.431-30-30-30zm0 50c-11.046 0-20-8.954-20-20s8.954-20 20-20 20 8.954 20 20-8.954 20-20 20z"/>
+          <path fill="#301f15" d="M50 30c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 30c-5.523 0-10-4.477-10-10s4.477-10 10-10 10 4.477 10 10-4.477 10-10 10z"/>
+          <path fill="#f5e3be" d="M50 40c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 15c-2.761 0-5-2.239-5-5s2.239-5 5-5 5 2.239 5 5-2.239 5-5 5z"/>
+          <path fill="#714238" d="M50 50c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5z"/>
+          <path fill="#b46f62" d="M70 45c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5z"/>
+          <path fill="#f5e3be" d="M60 35c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5z"/>
+        </svg>
+        <h3>Creamy Latte</h3>
+        <p>Smooth espresso with steamed milk and a light foam.</p>
+        <button>Order Now</button>
+      </div>
+      <div class="menu-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150" class="coffee-svg">
+          <path fill="#714238" d="M50 10c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 70c-16.569 0-30-13.431-30-30s13.431-30 30-30 30 13.431 30 30-13.431 30-30 30z"/>
+          <path fill="#b46f62" d="M50 20c-16.569 0-30 13.431-30 30s13.431 30 30 30 30-13.431 30-30-13.431-30-30-30zm0 50c-11.046 0-20-8.954-20-20s8.954-20 20-20 20 8.954 20 20-8.954 20-20 20z"/>
+          <path fill="#301f15" d="M50 30c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 30c-5.523 0-10-4.477-10-10s4.477-10 10-10 10 4.477 10 10-4.477 10-10 10z"/>
+          <path fill="#f5e3be" d="M50 40c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 15c-2.761 0-5-2.239-5-5s2.239-5 5-5 5 2.239 5 5-2.239 5-5 5z"/>
+          <path fill="#714238" d="M50 50c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5z"/>
+          <path fill="#b46f62" d="M70 45c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5z"/>
+          <path fill="#f5e3be" d="M60 35c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5z"/>
+          <path fill="#301f15" d="M40 35c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5z"/>
+        </svg>
+        <h3>Artisan Cappuccino</h3>
+        <p>Balanced espresso with equal parts steamed and foamed milk.</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brewing Methods Section -->
+  <section class="brewing-methods" id="purchase">
+    <div class="methods-header">
+      <h1>Coffee Brewing Techniques</h1>
+      <p>Discover the art of brewing the perfect cup</p>
+    </div>
+    <div class="method-cards">
+      <div class="method-card">
+        <i class="fas fa-coffee"></i>
+        <h3>Pour Over</h3>
+        <p>Precise and clean brewing method that highlights coffee's delicate flavors.</p>
+      </div>
+      <div class="method-card">
+        <i class="fas fa-mug-hot"></i>
+        <h3>French Press</h3>
+        <p>Full-bodied brew that captures the coffee's rich, robust characteristics.</p>
+      </div>
+      <div class="method-card">
+        <i class="fas fa-filter"></i>
+        <h3>Cold Brew</h3>
+        <p>Smooth, less acidic coffee brewed with cold water over extended time.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Customer feedback -->
 
-  <section class="feedback">
+  <section class="feedback" id="contact">
     <div class="review"> 
     <h1>Reviews</h1>
-    <img src="/images/about-coffee-removebg-preview.png" width="60px" alt="">
+    <img src="/images/about-coffee-removebg-preview.png" width="60px" alt="Reviews">
     </div>
     <p class="sayings">what other people are saying!</p>
     <div class="first-div">
@@ -136,5 +229,89 @@
 </div>
   <div class="copyright"><p>Copyright <i class="fas fa-copyright"></i> 2024 All Rights Reserved Coffee Borcelle</p></div>
   </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburgerMenu = document.getElementById('hamburger-menu');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+      // Toggle mobile menu
+      hamburgerMenu.addEventListener('click', function(event) {
+        event.stopPropagation();
+        toggleMobileMenu();
+      });
+
+      // Close mobile menu when a link is clicked
+      mobileNavLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          
+          if (targetSection) {
+            // Smooth scroll to section
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+            
+            // Close mobile menu
+            toggleMobileMenu();
+          }
+        });
+      });
+
+      // Close mobile menu when clicking outside
+      document.addEventListener('click', function(event) {
+        if (mobileMenu.classList.contains('active') && 
+            !hamburgerMenu.contains(event.target) && 
+            !mobileMenu.contains(event.target)) {
+          toggleMobileMenu();
+        }
+      });
+
+      // Prevent mobile menu from closing when clicking inside
+      mobileMenu.addEventListener('click', function(event) {
+        event.stopPropagation();
+      });
+
+      // Function to toggle mobile menu
+      function toggleMobileMenu() {
+        mobileMenu.classList.toggle('active');
+        hamburgerMenu.classList.toggle('active');
+      }
+
+      // Replace broken images
+      const images = document.querySelectorAll('img');
+      images.forEach(img => {
+        img.addEventListener('error', function() {
+          const width = this.width || 300;
+          const height = this.height || 250;
+          const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+          svg.setAttribute('width', width);
+          svg.setAttribute('height', height);
+          svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+          
+          const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+          rect.setAttribute('width', '100%');
+          rect.setAttribute('height', '100%');
+          rect.setAttribute('fill', '#f0f0f0');
+          
+          const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+          text.setAttribute('x', '50%');
+          text.setAttribute('y', '50%');
+          text.setAttribute('text-anchor', 'middle');
+          text.setAttribute('alignment-baseline', 'middle');
+          text.setAttribute('font-family', 'Arial');
+          text.setAttribute('font-size', '16');
+          text.setAttribute('fill', '#888');
+          text.textContent = 'Image Not Available';
+          
+          svg.appendChild(rect);
+          svg.appendChild(text);
+          
+          this.parentNode.replaceChild(svg, this);
+        });
+      });
+    });
+  </script>
 </body>
 </html>
